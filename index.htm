@@ -6,7 +6,7 @@
     <title>Aventure graphique</title>
     <link rel="stylesheet" href="./style/bootstrap.css">
     <link rel="stylesheet" href="./style/style.css">
-    <script src="./script/bootstrap.bundle.js" defer></script>
+    <script src="./script/app.js" defer></script>
 
 </head>
 <body>
@@ -23,17 +23,17 @@
 
         <section class="row justify-content-center py-2">
             <div class="col-3 bg-dark p-4">
-                <img src="./asset/image/image1.png" alt="aventure" class="img-fluid">
+                <img src="./asset/image/image1.png" alt="aventure" class="img-fluid" id="image">
             </div>
         </section>
         <section class="row justify-content-center py-2">
             <div class="col-5 bg-dark p-4 text-light-emphasis text-center">
-                <p> comme souvent, cette histoire commence dans une auberge...</p>
-                <p> Celle-ci est miteuse, inquiètante, perdue au fin fond du marais sans retour, pas de quoi effrayer de vaillants aventuriers</p>
+                <p id="text-one"> comme souvent, cette histoire commence dans une auberge...</p>
+                <p id="text-two"> Celle-ci est miteuse, inquiètante, perdue au fin fond du marais sans retour, pas de quoi effrayer de vaillants aventuriers</p>
             </div>
         </section>
         <section class="row row justify-content-center py-2">
-            <div class="col-2 btn btn-dark">Suivant</div>
+            <div class="col-2 btn btn-dark" id="button">Suivant</div>
         </section>
     </main>
 </body>
